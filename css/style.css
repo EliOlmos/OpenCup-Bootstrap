@@ -20,10 +20,100 @@
 .imagen-fondo {
     display: flex;
     margin: 0;
+    background-image: url(../img/encabezado.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     flex-direction: column;
+
+}
+
+main p{
+    margin: 10px;
+    padding:10px;
+}
+
+.imagenes-inicio{
+    justify-content: center;
+    padding: 10px;
+   
+}
+
+.imagenes-inicio img{
+
+    border-radius: 5px;
+    border: white 4px solid;
+}
+
+.footer {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: Inknut;
+    color: white;
+
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inknut;
+}
+
+.tituloMapa {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    flex-direction:column;
+    justify-content: space-between;
+    border: white 4px solid;
+    border-radius: 5%;
+}
+
+.tituloMapa h3{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #80808073;
+}
+
+.tituloMapa iframe{
+    align-items: center;
+
+}
+
+.redes {
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+
+}
+
+.redes img:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.3s;
+}
+
+h4 {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
 
 }
