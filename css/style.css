@@ -94,8 +94,21 @@ border-radius: 0.5em;
 box-shadow: inset 1px 1px 20px 4px;
 }
 
-       
+ /*Tabla*/
+ .container{
+    text-align: center;
+    opacity: 0.9;
+ }      
 
+ .encabezado-etapa {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+ }
 
 .colorfooter{
     background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
