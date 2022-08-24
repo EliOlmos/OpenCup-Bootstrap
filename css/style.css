@@ -28,92 +28,94 @@
     flex-direction: column;
 
 }
+h1{
+    color: rgb(29, 206, 44);
+    text-align: center;
+    font-family: Inknut;
+    font-style: bold;
+    font-size: 14px;
+}
 
 main p{
     margin: 10px;
     padding:10px;
 }
 
-.imagenes-inicio{
-    justify-content: center;
-    padding: 10px;
-   
+
+#fotos-index .col-lg4 {
+margin: 0 !important;
+    padding:25px;
 }
 
-.imagenes-inicio img{
+#fotos-index img{
+    width: 100%;
+    height: 350px;
 
-    border-radius: 5px;
-    border: white 4px solid;
+}
+#fotos-index img:hover{
+    border:5px solid white;
+
 }
 
-.footer {
-    display: flex;
-    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    font-family: Inknut;
+#galeria .col-lg-3, .col-md-6, .col-sm-12 {
+    margin: 0 !important;
+    padding:25px;
+    }
+    
+#galeria img{
+    width: 100%;
+    height: 300px;
+    }
+
+#galeria img:hover{
+        border:5px solid white;
+    
+    }
+
+.blockquote {
     color: white;
+    font-style: bold;
+    font-size: 30px !important;
+    border-radius: 5px;
+    border: 4px solid white;
+    margin: 30px;
 
 }
 
-h3 {
-    display: flex;
-    align-items: center;
-    font-weight: 200;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    font-family: Inknut;
+/* Carrusel*/
+
+
+
+.colorfooter{
+    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
 }
+
+.color-texto-footer{
+    color: white;
+}
+
+
 
 .tituloMapa {
     display: flex;
+    padding: 5px;
     margin: 10px;
-    padding: 10px;
     align-items: center;
     flex-direction:column;
     justify-content: space-between;
-    border: white 4px solid;
+    border: white 2px solid;
     border-radius: 5%;
 }
 
 .tituloMapa h3{
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-    font-weight: bold;
     background-color: #80808073;
+    font-size: 14px;
 }
 
 .tituloMapa iframe{
     align-items: center;
-
-}
-
-.redes {
-    color: white;
-    display: inline;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px;
-    padding-left: 0px;
-    margin-bottom: 5px;
-
-}
-
-.redes img:hover {
-    transform: scale(1.2, 1.2);
-    transition: 0.3s;
-}
-
-h4 {
-    display: inline;
-    color: white;
-    font-size: 16px;
-    font-weight: 100px;
-    justify-content: space-between;
-    margin-right: 30px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
 
 }
