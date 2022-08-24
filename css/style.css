@@ -95,7 +95,8 @@ box-shadow: inset 1px 1px 20px 4px;
 }
 
  /*Tabla*/
- .container{
+ .container-fluid {
+    width: 50%;
     text-align: center;
     opacity: 0.9;
  }      
@@ -111,7 +112,7 @@ box-shadow: inset 1px 1px 20px 4px;
  }
 
 .colorfooter{
-    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), rgba(0, 0, 139, 0.801));
+    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
 }
 
 .color-texto-footer{
