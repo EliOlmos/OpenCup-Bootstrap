@@ -1,0 +1,29 @@
+//paleta de colores header y footer//
+
+$azulado: linear-gradient(
+  to right,
+  rgb(207, 232, 240),
+  rgb(95, 161, 184),
+  darkblue
+);
+
+//
+
+%estiloImagenFondo {
+  display: flex;
+  margin: 0;
+  background-image: url(../img/encabezado.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  flex-direction: column;
+}
+
+%tituloPaginas {
+  color: rgb(29, 206, 44);
+  text-align: center;
+  font-family: Inknut;
+  font-style: bold;
+  font-size: 14px;
+}

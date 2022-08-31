@@ -1,0 +1,24 @@
+#fotos-index .col-lg4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+#fotos-index img {
+  width: 100%;
+  height: 350px;
+  &:hover {
+    border: 5px solid white;
+  }
+}
+
+.blockquote {
+  color: white;
+  font-style: bold;
+  font-size: 30px !important;
+  border-radius: 5px;
+  border: 4px solid white;
+  margin: 30px;
+}
+main p {
+  margin: 10px;
+  padding: 10px;
+}

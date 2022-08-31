@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//HEADER//
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: $azulado;
+  justify-content: space-between;
+  top: 0;
+  align-items: center;
+  img {
+    height: 60px;
+    margin: 10px;
+  }
+}
+
+//main de todos mis html//
+.imagen-fondo {
+  @extend %estiloImagenFondo;
+  }
+ 
+//titulos de todos mis html//
+h1 {
+  @extend %tituloPaginas;
+}
+
+//FOOTER//
+
+.colorfooter {
+  background-image: $azulado;
+
+  .tituloMapa {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border: white 2px solid;
+    border-radius: 5%;
+
+      .tituloMapa h3 {
+        background-color: #80808073;
+        font-size: 14px;
+      }
+
+      .tituloMapa iframe {
+        align-items: center;
+        height: 100px;
+        margin: 5px;
+        padding: 5px;
+      }
+    }
+    .color-texto-footer {
+      color: white;
+  }
+}
